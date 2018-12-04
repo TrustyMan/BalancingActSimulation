@@ -1,0 +1,25 @@
+{
+  "name": "balancing-act",
+  "version": "1.2.0-dev.3",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phetsims/balancing-act.git"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.0"
+  },
+  "phet": {
+    "requirejsNamespace": "BALANCING_ACT",
+    "phetLibs": [
+      "vegas",
+      "vibe"
+    ],
+    "runnable": true,
+    "supportedBrands": [
+      "phet",
+      "adapted-from-phet"
+    ],
+    "simulation": true
+  }
+}
